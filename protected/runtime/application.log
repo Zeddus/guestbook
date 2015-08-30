@@ -1,0 +1,1747 @@
+2015/08/29 00:27:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection.connectionString cannot be empty.' in C:\WebServers\home\yii\www\framework\db\CDbConnection.php:387
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\WebServers\home\yii\www\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\WebServers\home\yii\www\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\WebServers\home\yii\www\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\WebServers\home\yii\www\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 C:\WebServers\home\yii\www\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\WebServers\home\yii\www\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\WebServers\home\yii\www\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 Z:\home\yii\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yii/index.php/gii/default/index
+---
+2015/08/29 00:27:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection.connectionString cannot be empty.' in C:\WebServers\home\yii\www\framework\db\CDbConnection.php:387
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\WebServers\home\yii\www\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\WebServers\home\yii\www\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\WebServers\home\yii\www\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\WebServers\home\yii\www\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 C:\WebServers\home\yii\www\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\WebServers\home\yii\www\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\WebServers\home\yii\www\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 Z:\home\yii\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yii/index.php/gii/module/index
+---
+2015/08/29 00:28:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection.connectionString cannot be empty.' in C:\WebServers\home\yii\www\framework\db\CDbConnection.php:387
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\WebServers\home\yii\www\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\WebServers\home\yii\www\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\WebServers\home\yii\www\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\WebServers\home\yii\www\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 C:\WebServers\home\yii\www\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\WebServers\home\yii\www\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\WebServers\home\yii\www\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 Z:\home\yii\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yii/index.php/gii/module/index
+---
+2015/08/29 00:28:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection.connectionString cannot be empty.' in C:\WebServers\home\yii\www\framework\db\CDbConnection.php:387
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\WebServers\home\yii\www\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\WebServers\home\yii\www\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\WebServers\home\yii\www\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\WebServers\home\yii\www\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 C:\WebServers\home\yii\www\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\WebServers\home\yii\www\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\WebServers\home\yii\www\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 Z:\home\yii\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yii/index.php/gii/module/index
+---
+2015/08/29 00:28:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection.connectionString cannot be empty.' in C:\WebServers\home\yii\www\framework\db\CDbConnection.php:387
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\WebServers\home\yii\www\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\WebServers\home\yii\www\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\WebServers\home\yii\www\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\WebServers\home\yii\www\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 C:\WebServers\home\yii\www\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\WebServers\home\yii\www\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\WebServers\home\yii\www\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 Z:\home\yii\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yii/index.php/gii/module/index
+---
+2015/08/29 00:29:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection.connectionString cannot be empty.' in C:\WebServers\home\yii\www\framework\db\CDbConnection.php:387
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\WebServers\home\yii\www\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\WebServers\home\yii\www\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\WebServers\home\yii\www\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\WebServers\home\yii\www\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 C:\WebServers\home\yii\www\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\WebServers\home\yii\www\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\WebServers\home\yii\www\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 Z:\home\yii\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yii/index.php/gii/module/index
+---
+2015/08/29 00:29:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection.connectionString cannot be empty.' in C:\WebServers\home\yii\www\framework\db\CDbConnection.php:387
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\WebServers\home\yii\www\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\WebServers\home\yii\www\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\WebServers\home\yii\www\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\WebServers\home\yii\www\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 C:\WebServers\home\yii\www\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\WebServers\home\yii\www\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\WebServers\home\yii\www\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 Z:\home\yii\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yii/index.php/gii/module/index
+---
+2015/08/29 00:30:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection.connectionString cannot be empty.' in C:\WebServers\home\yii\www\framework\db\CDbConnection.php:387
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\WebServers\home\yii\www\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\WebServers\home\yii\www\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\WebServers\home\yii\www\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\WebServers\home\yii\www\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 C:\WebServers\home\yii\www\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\WebServers\home\yii\www\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\WebServers\home\yii\www\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 Z:\home\yii\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yii/index.php/gii/module/index
+---
+2015/08/29 00:30:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection.connectionString cannot be empty.' in C:\WebServers\home\yii\www\framework\db\CDbConnection.php:387
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\WebServers\home\yii\www\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\WebServers\home\yii\www\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\WebServers\home\yii\www\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\WebServers\home\yii\www\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 C:\WebServers\home\yii\www\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\WebServers\home\yii\www\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\WebServers\home\yii\www\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 Z:\home\yii\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yii/index.php/gii/module/index
+---
+2015/08/29 00:37:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "page".' in C:\WebServers\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page')
+#1 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/page
+---
+2015/08/29 00:37:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Page".' in C:\WebServers\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Page')
+#1 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/Page
+---
+2015/08/29 01:10:03 [error] [exception.CException] exception 'CException' with message 'BPController cannot find the requested view "index".' in C:\WebServers\home\yii\www\framework\web\CController.php:878
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 Z:\home\yii\www\protected\controllers\BPController.php(128): CController->render('index', Array)
+#2 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): BPController->actionIndex()
+#3 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\WebServers\home\yii\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\WebServers\home\yii\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\WebServers\home\yii\www\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('bP')
+#13 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 Z:\home\yii\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/bP
+HTTP_REFERER=http://yii/index.php/gii/crud/index
+---
+2015/08/29 01:10:54 [error] [exception.CException] exception 'CException' with message 'BPController cannot find the requested view "view".' in C:\WebServers\home\yii\www\framework\web\CController.php:878
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#1 Z:\home\yii\www\protected\controllers\BPController.php(56): CController->render('view', Array)
+#2 [internal function]: BPController->actionView('1')
+#3 C:\WebServers\home\yii\www\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BPController), Array)
+#4 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BPController), Object(ReflectionMethod), Array)
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 C:\WebServers\home\yii\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\WebServers\home\yii\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 C:\WebServers\home\yii\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\WebServers\home\yii\www\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('view')
+#14 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('bP/view')
+#15 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 Z:\home\yii\www\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php/bP/1
+HTTP_REFERER=http://yii/index.php/bP/create
+---
+2015/08/29 01:12:15 [error] [exception.CException] exception 'CException' with message 'BPController cannot find the requested view "_search".' in C:\WebServers\home\yii\www\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\yii\www\protected\views\bP\admin.php(40): CController->renderPartial('_search', Array)
+#1 C:\WebServers\home\yii\www\framework\web\CBaseController.php(126): require('Z:\home\yii\www...')
+#2 C:\WebServers\home\yii\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yii\www...', Array, true)
+#3 C:\WebServers\home\yii\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yii\www...', Array, true)
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#5 Z:\home\yii\www\protected\controllers\BPController.php(143): CController->render('admin', Array)
+#6 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): BPController->actionAdmin()
+#7 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\WebServers\home\yii\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\WebServers\home\yii\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\WebServers\home\yii\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\WebServers\home\yii\www\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#16 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('bP/admin')
+#17 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#18 Z:\home\yii\www\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php/bP/admin
+HTTP_REFERER=http://yii/index.php/bP/index
+---
+2015/08/29 01:14:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "guestbook".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('guestbook')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('guestbook')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('bP/guestbook')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/bP/guestbook
+---
+2015/08/29 01:14:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "guestbook.php".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('guestbook.php')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('guestbook.php')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('bP/guestbook.ph...')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/bP/guestbook.php
+---
+2015/08/29 01:14:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "guestbook.php".' in C:\WebServers\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guestbook.php')
+#1 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/guestbook.php
+---
+2015/08/29 01:17:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "guestbook".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('guestbook')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('guestbook')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('bP/guestbook')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/bP/guestbook
+---
+2015/08/29 01:17:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bookpage".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('bookpage')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('bookpage')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('bP/bookpage')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/bP/bookpage
+---
+2015/08/29 10:14:42 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\yii\www\protected\controllers\BPController.php:125) (C:\WebServers\home\yii\www\framework\web\CHttpRequest.php:860)
+Stack trace:
+#0 Z:\home\yii\www\protected\controllers\BPController.php(140): BPController->redirect()
+#1 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): BPController->actionIndex()
+#2 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(133): BPController->runAction()
+#4 C:\WebServers\home\yii\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\WebServers\home\yii\www\framework\web\filters\CInlineFilter.php(58): BPController->filterAccessControl()
+#7 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\WebServers\home\yii\www\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\WebServers\home\yii\www\framework\web\CController.php(265): BPController->runActionWithFilters()
+#10 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): BPController->run()
+#11 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 Z:\home\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/bP/index
+in Z:\home\yii\www\protected\controllers\BPController.php (140)
+in Z:\home\yii\www\index.php (13)
+2015/08/29 10:25:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "my/one".' in C:\WebServers\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('my/one')
+#1 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=my/one
+---
+2015/08/29 10:25:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "one".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('one')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('one')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book/one')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=book/one
+---
+2015/08/29 10:25:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bookcontroller/one".' in C:\WebServers\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('bookcontroller/...')
+#1 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=bookcontroller/one
+---
+2015/08/29 10:26:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "one".' in C:\WebServers\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('one')
+#1 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=one
+---
+2015/08/29 10:26:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=book
+---
+2015/08/29 10:26:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Book')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=Book
+---
+2015/08/29 10:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "one".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('one')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('one')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Book/one')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=Book/one
+---
+2015/08/29 10:27:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "one".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('one')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('one')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Book/one')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=Book/one
+---
+2015/08/29 10:27:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "one".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('one')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('one')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Book/one')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=Book/one
+---
+2015/08/29 10:29:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "one".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('one')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('one')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book/one')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=book/one
+---
+2015/08/29 10:29:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "one".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('one')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('one')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Book/one')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=Book/one
+---
+2015/08/29 10:29:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "one".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('one')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('one')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Book/one')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=Book/one
+---
+2015/08/29 10:29:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "one".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('one')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('one')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Book/one')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=Book/one
+---
+2015/08/29 10:32:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "one".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('one')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('one')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Book/one')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=Book/one
+---
+2015/08/29 10:55:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "пшш".' in C:\WebServers\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('??????')
+#1 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=%D0%BF%D1%88%D1%88
+---
+2015/08/29 11:12:36 [error] [exception.CException] exception 'CException' with message 'Property "Page.name" is not defined.' in C:\WebServers\home\yii\www\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 Z:\home\yii\www\protected\controllers\PageController.php(22): CActiveRecord->__get('name')
+#2 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#3 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page')
+#8 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 Z:\home\yii\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=page
+---
+2015/08/29 11:26:14 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{{page}} WHERE id = 4' at line 1. The SQL statement executed was: SELECT Name {{page}} WHERE id = :num.
+in Z:\home\yii\www\protected\controllers\PageController.php (39)
+in Z:\home\yii\www\index.php (13)
+2015/08/29 11:26:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{{page}} WHERE id = 4' at line 1. The SQL statement executed was: SELECT Name {{page}} WHERE id = :num' in C:\WebServers\home\yii\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\WebServers\home\yii\www\framework\db\ar\CActiveRecord.php(1586): CDbCommand->queryAll()
+#2 Z:\home\yii\www\protected\controllers\PageController.php(39): CActiveRecord->findAllBySql('SELECT Name {{p...', Array)
+#3 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page')
+#9 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=page
+---
+2015/08/29 11:26:48 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{{page}} WHERE Say = 'MOMOMO'' at line 1. The SQL statement executed was: SELECT Name {{page}} WHERE Say = :num.
+in Z:\home\yii\www\protected\controllers\PageController.php (39)
+in Z:\home\yii\www\index.php (13)
+2015/08/29 11:26:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{{page}} WHERE Say = 'MOMOMO'' at line 1. The SQL statement executed was: SELECT Name {{page}} WHERE Say = :num' in C:\WebServers\home\yii\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\WebServers\home\yii\www\framework\db\ar\CActiveRecord.php(1586): CDbCommand->queryAll()
+#2 Z:\home\yii\www\protected\controllers\PageController.php(39): CActiveRecord->findAllBySql('SELECT Name {{p...', Array)
+#3 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page')
+#9 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=page
+---
+2015/08/29 11:27:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{{page}} WHERE id<4' at line 1. The SQL statement executed was: SELECT Name {{page}} WHERE id<:num.
+in Z:\home\yii\www\protected\controllers\PageController.php (39)
+in Z:\home\yii\www\index.php (13)
+2015/08/29 11:27:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{{page}} WHERE id<4' at line 1. The SQL statement executed was: SELECT Name {{page}} WHERE id<:num' in C:\WebServers\home\yii\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\WebServers\home\yii\www\framework\db\ar\CActiveRecord.php(1586): CDbCommand->queryAll()
+#2 Z:\home\yii\www\protected\controllers\PageController.php(39): CActiveRecord->findAllBySql('SELECT Name {{p...', Array)
+#3 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page')
+#9 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=page
+---
+2015/08/29 11:27:32 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{{page}} WHERE id<4' at line 1. The SQL statement executed was: SELECT Name {{page}} WHERE id<:num.
+in Z:\home\yii\www\protected\controllers\PageController.php (39)
+in Z:\home\yii\www\index.php (13)
+2015/08/29 11:27:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{{page}} WHERE id<4' at line 1. The SQL statement executed was: SELECT Name {{page}} WHERE id<:num' in C:\WebServers\home\yii\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\WebServers\home\yii\www\framework\db\ar\CActiveRecord.php(1586): CDbCommand->queryAll()
+#2 Z:\home\yii\www\protected\controllers\PageController.php(39): CActiveRecord->findAllBySql('SELECT Name {{p...', Array)
+#3 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page')
+#9 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=page
+---
+2015/08/29 11:27:32 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{{page}} WHERE id<4' at line 1. The SQL statement executed was: SELECT Name {{page}} WHERE id<:num.
+in Z:\home\yii\www\protected\controllers\PageController.php (39)
+in Z:\home\yii\www\index.php (13)
+2015/08/29 11:27:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{{page}} WHERE id<4' at line 1. The SQL statement executed was: SELECT Name {{page}} WHERE id<:num' in C:\WebServers\home\yii\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\WebServers\home\yii\www\framework\db\ar\CActiveRecord.php(1586): CDbCommand->queryAll()
+#2 Z:\home\yii\www\protected\controllers\PageController.php(39): CActiveRecord->findAllBySql('SELECT Name {{p...', Array)
+#3 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page')
+#9 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=page
+---
+2015/08/29 11:27:32 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{{page}} WHERE id<4' at line 1. The SQL statement executed was: SELECT Name {{page}} WHERE id<:num.
+in Z:\home\yii\www\protected\controllers\PageController.php (39)
+in Z:\home\yii\www\index.php (13)
+2015/08/29 11:27:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{{page}} WHERE id<4' at line 1. The SQL statement executed was: SELECT Name {{page}} WHERE id<:num' in C:\WebServers\home\yii\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\WebServers\home\yii\www\framework\db\ar\CActiveRecord.php(1586): CDbCommand->queryAll()
+#2 Z:\home\yii\www\protected\controllers\PageController.php(39): CActiveRecord->findAllBySql('SELECT Name {{p...', Array)
+#3 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page')
+#9 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=page
+---
+2015/08/29 11:28:05 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{{page}} WHERE id<4' at line 1. The SQL statement executed was: SELECT Name {{page}} WHERE id<:num.
+in Z:\home\yii\www\protected\controllers\PageController.php (39)
+in Z:\home\yii\www\index.php (13)
+2015/08/29 11:28:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{{page}} WHERE id<4' at line 1. The SQL statement executed was: SELECT Name {{page}} WHERE id<:num' in C:\WebServers\home\yii\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\WebServers\home\yii\www\framework\db\ar\CActiveRecord.php(1586): CDbCommand->queryAll()
+#2 Z:\home\yii\www\protected\controllers\PageController.php(39): CActiveRecord->findAllBySql('SELECT Name {{p...', Array)
+#3 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page')
+#9 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=page
+---
+2015/08/29 11:28:27 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{{page}} WHERE id<4' at line 1. The SQL statement executed was: SELECT Name {{page}} WHERE id<:num.
+in Z:\home\yii\www\protected\controllers\PageController.php (39)
+in Z:\home\yii\www\index.php (13)
+2015/08/29 11:28:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{{page}} WHERE id<4' at line 1. The SQL statement executed was: SELECT Name {{page}} WHERE id<:num' in C:\WebServers\home\yii\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\WebServers\home\yii\www\framework\db\ar\CActiveRecord.php(1563): CDbCommand->queryRow()
+#2 Z:\home\yii\www\protected\controllers\PageController.php(39): CActiveRecord->findBySql('SELECT Name {{p...', Array)
+#3 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page')
+#9 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=page
+---
+2015/08/29 11:28:43 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{page}} WHERE id<4' at line 1. The SQL statement executed was: SELECT Name FROM {{page}} WHERE id<:num.
+in Z:\home\yii\www\protected\controllers\PageController.php (39)
+in Z:\home\yii\www\index.php (13)
+2015/08/29 11:28:43 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{page}} WHERE id<4' at line 1. The SQL statement executed was: SELECT Name FROM {{page}} WHERE id<:num' in C:\WebServers\home\yii\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\WebServers\home\yii\www\framework\db\ar\CActiveRecord.php(1563): CDbCommand->queryRow()
+#2 Z:\home\yii\www\protected\controllers\PageController.php(39): CActiveRecord->findBySql('SELECT Name FRO...', Array)
+#3 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page')
+#9 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=page
+---
+2015/08/29 11:29:03 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{page}} WHERE id = 4' at line 1. The SQL statement executed was: SELECT Name FROM {{page}} WHERE id = :num.
+in Z:\home\yii\www\protected\controllers\PageController.php (39)
+in Z:\home\yii\www\index.php (13)
+2015/08/29 11:29:03 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{page}} WHERE id = 4' at line 1. The SQL statement executed was: SELECT Name FROM {{page}} WHERE id = :num' in C:\WebServers\home\yii\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\WebServers\home\yii\www\framework\db\ar\CActiveRecord.php(1563): CDbCommand->queryRow()
+#2 Z:\home\yii\www\protected\controllers\PageController.php(39): CActiveRecord->findBySql('SELECT Name FRO...', Array)
+#3 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page')
+#9 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=page
+---
+2015/08/29 11:29:04 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{page}} WHERE id = 4' at line 1. The SQL statement executed was: SELECT Name FROM {{page}} WHERE id = :num.
+in Z:\home\yii\www\protected\controllers\PageController.php (39)
+in Z:\home\yii\www\index.php (13)
+2015/08/29 11:29:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{page}} WHERE id = 4' at line 1. The SQL statement executed was: SELECT Name FROM {{page}} WHERE id = :num' in C:\WebServers\home\yii\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\WebServers\home\yii\www\framework\db\ar\CActiveRecord.php(1563): CDbCommand->queryRow()
+#2 Z:\home\yii\www\protected\controllers\PageController.php(39): CActiveRecord->findBySql('SELECT Name FRO...', Array)
+#3 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page')
+#9 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=page
+---
+2015/08/29 11:29:04 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{page}} WHERE id = 4' at line 1. The SQL statement executed was: SELECT Name FROM {{page}} WHERE id = :num.
+in Z:\home\yii\www\protected\controllers\PageController.php (39)
+in Z:\home\yii\www\index.php (13)
+2015/08/29 11:29:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{page}} WHERE id = 4' at line 1. The SQL statement executed was: SELECT Name FROM {{page}} WHERE id = :num' in C:\WebServers\home\yii\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\WebServers\home\yii\www\framework\db\ar\CActiveRecord.php(1563): CDbCommand->queryRow()
+#2 Z:\home\yii\www\protected\controllers\PageController.php(39): CActiveRecord->findBySql('SELECT Name FRO...', Array)
+#3 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page')
+#9 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=page
+---
+2015/08/29 11:31:46 [error] [exception.CException] exception 'CException' with message 'Page and its behaviors do not have a method or closure named "exist".' in C:\WebServers\home\yii\www\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\ar\CActiveRecord.php(227): CComponent->__call('exist', Array)
+#1 Z:\home\yii\www\protected\controllers\PageController.php(39): CActiveRecord->__call('exist', Array)
+#2 Z:\home\yii\www\protected\controllers\PageController.php(39): Page->exist('id <:num', Array)
+#3 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page')
+#9 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=page
+---
+2015/08/29 11:32:04 [error] [php] Invalid argument supplied for foreach() (Z:\home\yii\www\protected\controllers\PageController.php:40)
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(286): PageController->runAction()
+#1 C:\WebServers\home\yii\www\framework\web\CController.php(265): PageController->runActionWithFilters()
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): PageController->run()
+#3 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 Z:\home\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=page
+in Z:\home\yii\www\protected\controllers\PageController.php (40)
+in Z:\home\yii\www\index.php (13)
+2015/08/29 11:52:01 [error] [exception.CException] exception 'CException' with message 'PageController cannot find the requested view "/book/index".' in C:\WebServers\home\yii\www\framework\web\CController.php:878
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(782): CController->renderPartial('/book/index', NULL, true)
+#1 Z:\home\yii\www\protected\controllers\PageController.php(47): CController->render('/book/index')
+#2 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#3 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page')
+#8 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 Z:\home\yii\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=page
+---
+2015/08/29 11:54:38 [error] [php] Invalid argument supplied for foreach() (Z:\home\yii\www\protected\views\GuestBook\index.php:4)
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(869): PageController->renderFile()
+#1 C:\WebServers\home\yii\www\framework\web\CController.php(782): PageController->renderPartial()
+#2 Z:\home\yii\www\protected\controllers\PageController.php(25): PageController->render()
+#3 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(286): PageController->runAction()
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(265): PageController->runActionWithFilters()
+#7 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): PageController->run()
+#8 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=page
+in Z:\home\yii\www\protected\views\GuestBook\index.php (4)
+in Z:\home\yii\www\protected\controllers\PageController.php (25)
+in Z:\home\yii\www\index.php (13)
+2015/08/29 11:54:47 [error] [php] Invalid argument supplied for foreach() (Z:\home\yii\www\protected\views\GuestBook\index.php:4)
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(869): PageController->renderFile()
+#1 C:\WebServers\home\yii\www\framework\web\CController.php(782): PageController->renderPartial()
+#2 Z:\home\yii\www\protected\controllers\PageController.php(25): PageController->render()
+#3 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(286): PageController->runAction()
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(265): PageController->runActionWithFilters()
+#7 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): PageController->run()
+#8 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=page
+in Z:\home\yii\www\protected\views\GuestBook\index.php (4)
+in Z:\home\yii\www\protected\controllers\PageController.php (25)
+in Z:\home\yii\www\index.php (13)
+2015/08/29 11:55:01 [error] [php] Invalid argument supplied for foreach() (Z:\home\yii\www\protected\views\GuestBook\index.php:4)
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(869): PageController->renderFile()
+#1 C:\WebServers\home\yii\www\framework\web\CController.php(782): PageController->renderPartial()
+#2 Z:\home\yii\www\protected\controllers\PageController.php(25): PageController->render()
+#3 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(286): PageController->runAction()
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(265): PageController->runActionWithFilters()
+#7 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): PageController->run()
+#8 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=page
+in Z:\home\yii\www\protected\views\GuestBook\index.php (4)
+in Z:\home\yii\www\protected\controllers\PageController.php (25)
+in Z:\home\yii\www\index.php (13)
+2015/08/29 11:55:18 [error] [php] Invalid argument supplied for foreach() (Z:\home\yii\www\protected\views\GuestBook\index.php:4)
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(869): PageController->renderFile()
+#1 C:\WebServers\home\yii\www\framework\web\CController.php(782): PageController->renderPartial()
+#2 Z:\home\yii\www\protected\controllers\PageController.php(25): PageController->render()
+#3 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(286): PageController->runAction()
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(265): PageController->runActionWithFilters()
+#7 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): PageController->run()
+#8 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=page
+in Z:\home\yii\www\protected\views\GuestBook\index.php (4)
+in Z:\home\yii\www\protected\controllers\PageController.php (25)
+in Z:\home\yii\www\index.php (13)
+2015/08/29 12:00:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "page?id=1".' in C:\WebServers\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page?id=1')
+#1 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=page?id=1
+---
+2015/08/29 12:22:24 [error] [exception.CException] exception 'CException' with message 'Property "Page.Text" is not defined.' in C:\WebServers\home\yii\www\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Text')
+#1 C:\WebServers\home\yii\www\framework\web\helpers\CHtml.php(2729): CActiveRecord->__get('Text')
+#2 C:\WebServers\home\yii\www\framework\web\helpers\CHtml.php(1834): CHtml::resolveValue(Object(Page), 'Text')
+#3 C:\WebServers\home\yii\www\framework\web\widgets\CActiveForm.php(853): CHtml::activeTextArea(Object(Page), 'Text', Array)
+#4 Z:\home\yii\www\protected\views\GuestBook\index.php(32): CActiveForm->textArea(Object(Page), 'Text', Array)
+#5 C:\WebServers\home\yii\www\framework\web\CBaseController.php(126): require('Z:\home\yii\www...')
+#6 C:\WebServers\home\yii\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yii\www...', Array, true)
+#7 C:\WebServers\home\yii\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yii\www...', Array, true)
+#8 C:\WebServers\home\yii\www\framework\web\CController.php(782): CController->renderPartial('/GuestBook/inde...', Array, true)
+#9 Z:\home\yii\www\protected\controllers\PageController.php(22): CController->render('/GuestBook/inde...', Array)
+#10 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#11 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#15 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page')
+#16 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 Z:\home\yii\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php?r=page&id=3
+---
+2015/08/29 12:34:43 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'guestgook.p' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `p`.
+in Z:\home\yii\www\index.php (13)
+2015/08/29 12:38:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "answer".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('answer')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('answer')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page/answer')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/page/answer
+---
+2015/08/29 12:38:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('view')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('view')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page/view/answe...')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/page/view/answer
+---
+2015/08/29 12:38:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Answer".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('Answer')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('Answer')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page/Answer')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/page/Answer
+---
+2015/08/29 13:24:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "page.фтыцук".' in C:\WebServers\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page.??????????...')
+#1 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/page.%D1%84%D1%82%D1%8B%D1%86%D1%83%D0%BA
+---
+2015/08/29 13:24:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "answer".' in C:\WebServers\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('answer')
+#1 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/answer
+---
+2015/08/29 14:06:21 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in C:\WebServers\home\yii\www\framework\zii\widgets\CBaseListView.php:123
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#1 C:\WebServers\home\yii\www\framework\web\CBaseController.php(147): CListView->init()
+#2 C:\WebServers\home\yii\www\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 Z:\home\yii\www\protected\views\page\create.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 C:\WebServers\home\yii\www\framework\web\CBaseController.php(126): require('Z:\home\yii\www...')
+#5 C:\WebServers\home\yii\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yii\www...', Array, true)
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yii\www...', Array, true)
+#7 C:\WebServers\home\yii\www\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#8 Z:\home\yii\www\protected\controllers\PageController.php(79): CController->render('create', Array)
+#9 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionCreate()
+#10 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\WebServers\home\yii\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\WebServers\home\yii\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\WebServers\home\yii\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\WebServers\home\yii\www\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page/create')
+#20 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 Z:\home\yii\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php/page/create
+HTTP_REFERER=http://yii/index.php/page
+---
+2015/08/29 14:17:41 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in C:\WebServers\home\yii\www\framework\zii\widgets\CBaseListView.php:123
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#1 C:\WebServers\home\yii\www\framework\web\CBaseController.php(147): CListView->init()
+#2 C:\WebServers\home\yii\www\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 Z:\home\yii\www\protected\views\page\create.php(19): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 C:\WebServers\home\yii\www\framework\web\CBaseController.php(126): require('Z:\home\yii\www...')
+#5 C:\WebServers\home\yii\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yii\www...', Array, true)
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yii\www...', Array, true)
+#7 C:\WebServers\home\yii\www\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#8 Z:\home\yii\www\protected\controllers\PageController.php(79): CController->render('create', Array)
+#9 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionCreate()
+#10 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\WebServers\home\yii\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\WebServers\home\yii\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\WebServers\home\yii\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\WebServers\home\yii\www\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page/create')
+#20 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 Z:\home\yii\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php/page/create
+HTTP_REFERER=http://yii/index.php/page/index
+---
+2015/08/29 14:18:01 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in C:\WebServers\home\yii\www\framework\zii\widgets\CBaseListView.php:123
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#1 C:\WebServers\home\yii\www\framework\web\CBaseController.php(147): CListView->init()
+#2 C:\WebServers\home\yii\www\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 Z:\home\yii\www\protected\views\page\create.php(19): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 C:\WebServers\home\yii\www\framework\web\CBaseController.php(126): require('Z:\home\yii\www...')
+#5 C:\WebServers\home\yii\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yii\www...', Array, true)
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yii\www...', Array, true)
+#7 C:\WebServers\home\yii\www\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#8 Z:\home\yii\www\protected\controllers\PageController.php(79): CController->render('create', Array)
+#9 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionCreate()
+#10 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\WebServers\home\yii\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\WebServers\home\yii\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\WebServers\home\yii\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\WebServers\home\yii\www\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page/create')
+#20 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 Z:\home\yii\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php/page/create
+HTTP_REFERER=http://yii/index.php/page/index
+---
+2015/08/29 14:21:26 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in C:\WebServers\home\yii\www\framework\zii\widgets\CBaseListView.php:123
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#1 C:\WebServers\home\yii\www\framework\web\CBaseController.php(147): CListView->init()
+#2 C:\WebServers\home\yii\www\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 Z:\home\yii\www\protected\views\page\create.php(19): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 C:\WebServers\home\yii\www\framework\web\CBaseController.php(126): require('Z:\home\yii\www...')
+#5 C:\WebServers\home\yii\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yii\www...', Array, true)
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yii\www...', Array, true)
+#7 C:\WebServers\home\yii\www\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#8 Z:\home\yii\www\protected\controllers\PageController.php(91): CController->render('create', Array)
+#9 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionCreate()
+#10 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\WebServers\home\yii\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\WebServers\home\yii\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\WebServers\home\yii\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\WebServers\home\yii\www\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page/create')
+#20 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 Z:\home\yii\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php/page/create
+HTTP_REFERER=http://yii/index.php/page/index
+---
+2015/08/29 14:22:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "guestbook".' in C:\WebServers\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guestbook')
+#1 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/guestbook
+---
+2015/08/29 14:22:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "GuestBook".' in C:\WebServers\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('GuestBook')
+#1 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/GuestBook
+---
+2015/08/29 14:22:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "GuestBook".' in C:\WebServers\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('GuestBook')
+#1 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/GuestBook/
+---
+2015/08/29 14:22:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "views/GuestBook".' in C:\WebServers\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('views/GuestBook')
+#1 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/views/GuestBook/
+---
+2015/08/29 14:23:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "views/GuestBook".' in C:\WebServers\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('views/GuestBook')
+#1 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/views/GuestBook/
+---
+2015/08/29 14:30:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Guestbook')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/Guestbook
+---
+2015/08/29 14:30:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('Guestbook')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/Guestbook
+---
+2015/08/29 14:37:25 [error] [exception.CException] exception 'CException' with message 'guestController and its behaviors do not have a method or closure named "loadModel".' in C:\WebServers\home\yii\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Z:\home\yii\www\protected\controllers\guestController.php(10): CComponent->__call('loadModel', Array)
+#1 Z:\home\yii\www\protected\controllers\guestController.php(10): guestController->loadModel(1)
+#2 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): guestController->actionOne()
+#3 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('one')
+#7 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest/one')
+#8 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 Z:\home\yii\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/guest/one
+---
+2015/08/29 14:38:45 [error] [exception.CException] exception 'CException' with message 'guestController cannot find the requested view "create".' in C:\WebServers\home\yii\www\framework\web\CController.php:878
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#1 Z:\home\yii\www\protected\controllers\guestController.php(11): CController->render('create', Array)
+#2 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): guestController->actionOne()
+#3 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('one')
+#7 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest/one')
+#8 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 Z:\home\yii\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/guest/one
+---
+2015/08/29 14:39:35 [error] [exception.CException] exception 'CException' with message 'guestController cannot find the requested view "create".' in C:\WebServers\home\yii\www\framework\web\CController.php:878
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#1 Z:\home\yii\www\protected\controllers\guestController.php(11): CController->render('create', Array)
+#2 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): guestController->actionOne()
+#3 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('one')
+#7 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest/one')
+#8 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 Z:\home\yii\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/guest/one
+---
+2015/08/29 14:39:36 [error] [exception.CException] exception 'CException' with message 'guestController cannot find the requested view "create".' in C:\WebServers\home\yii\www\framework\web\CController.php:878
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#1 Z:\home\yii\www\protected\controllers\guestController.php(11): CController->render('create', Array)
+#2 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): guestController->actionOne()
+#3 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('one')
+#7 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest/one')
+#8 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 Z:\home\yii\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/guest/one
+---
+2015/08/29 14:40:55 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in C:\WebServers\home\yii\www\framework\zii\widgets\CBaseListView.php:123
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#1 C:\WebServers\home\yii\www\framework\web\CBaseController.php(147): CListView->init()
+#2 C:\WebServers\home\yii\www\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 Z:\home\yii\www\protected\views\guest\create.php(24): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 C:\WebServers\home\yii\www\framework\web\CBaseController.php(126): require('Z:\home\yii\www...')
+#5 C:\WebServers\home\yii\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yii\www...', Array, true)
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yii\www...', Array, true)
+#7 C:\WebServers\home\yii\www\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#8 Z:\home\yii\www\protected\controllers\guestController.php(11): CController->render('create', Array)
+#9 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): guestController->actionOne()
+#10 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('one')
+#14 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest/one')
+#15 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 Z:\home\yii\www\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php/guest/one
+---
+2015/08/29 14:41:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "one".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('one')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('one')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest/one')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/guest/one
+---
+2015/08/29 14:41:29 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\WebServers\home\yii\www\framework\web\CController.php:336
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('view')
+#4 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest/view')
+#5 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 Z:\home\yii\www\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/guest/view
+---
+2015/08/29 14:41:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('index')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest/index')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/guest/index
+---
+2015/08/29 14:41:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('create')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('create')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest/create')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/guest/create
+---
+2015/08/29 14:41:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "one".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('one')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('one')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest/one')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/guest/one
+---
+2015/08/29 14:42:18 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\WebServers\home\yii\www\framework\web\CController.php:336
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('one')
+#4 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest/one')
+#5 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 Z:\home\yii\www\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/guest/one
+---
+2015/08/29 14:46:22 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\WebServers\home\yii\www\framework\web\CController.php:336
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\WebServers\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('one')
+#4 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest/one')
+#5 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 Z:\home\yii\www\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/guest/one
+---
+2015/08/29 14:47:57 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in C:\WebServers\home\yii\www\framework\zii\widgets\CBaseListView.php:123
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#1 C:\WebServers\home\yii\www\framework\web\CBaseController.php(147): CListView->init()
+#2 C:\WebServers\home\yii\www\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 Z:\home\yii\www\protected\views\page\index.php(24): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 C:\WebServers\home\yii\www\framework\web\CBaseController.php(126): require('Z:\home\yii\www...')
+#5 C:\WebServers\home\yii\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yii\www...', Array, true)
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yii\www...', Array, true)
+#7 C:\WebServers\home\yii\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 Z:\home\yii\www\protected\controllers\PageController.php(79): CController->render('index', Array)
+#9 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionCreate()
+#10 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\WebServers\home\yii\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\WebServers\home\yii\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\WebServers\home\yii\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\WebServers\home\yii\www\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page/create')
+#20 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 Z:\home\yii\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php/page/create
+HTTP_REFERER=http://yii/index.php/page
+---
+2015/08/29 14:48:26 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in C:\WebServers\home\yii\www\framework\zii\widgets\CBaseListView.php:123
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#1 C:\WebServers\home\yii\www\framework\web\CBaseController.php(147): CListView->init()
+#2 C:\WebServers\home\yii\www\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 Z:\home\yii\www\protected\views\page\index.php(24): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 C:\WebServers\home\yii\www\framework\web\CBaseController.php(126): require('Z:\home\yii\www...')
+#5 C:\WebServers\home\yii\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yii\www...', Array, true)
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yii\www...', Array, true)
+#7 C:\WebServers\home\yii\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 Z:\home\yii\www\protected\controllers\PageController.php(79): CController->render('index', Array)
+#9 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionCreate()
+#10 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\WebServers\home\yii\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\WebServers\home\yii\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\WebServers\home\yii\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\WebServers\home\yii\www\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page/create')
+#20 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 Z:\home\yii\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php/page/create
+HTTP_REFERER=http://yii/index.php/page
+---
+2015/08/29 14:48:31 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in C:\WebServers\home\yii\www\framework\zii\widgets\CBaseListView.php:123
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#1 C:\WebServers\home\yii\www\framework\web\CBaseController.php(147): CListView->init()
+#2 C:\WebServers\home\yii\www\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 Z:\home\yii\www\protected\views\page\index.php(24): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 C:\WebServers\home\yii\www\framework\web\CBaseController.php(126): require('Z:\home\yii\www...')
+#5 C:\WebServers\home\yii\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yii\www...', Array, true)
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yii\www...', Array, true)
+#7 C:\WebServers\home\yii\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 Z:\home\yii\www\protected\controllers\PageController.php(79): CController->render('index', Array)
+#9 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionCreate()
+#10 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\WebServers\home\yii\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\WebServers\home\yii\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\WebServers\home\yii\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\WebServers\home\yii\www\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page/create')
+#20 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 Z:\home\yii\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php/page/create
+HTTP_REFERER=http://yii/index.php/page
+---
+2015/08/29 14:48:35 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in C:\WebServers\home\yii\www\framework\zii\widgets\CBaseListView.php:123
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#1 C:\WebServers\home\yii\www\framework\web\CBaseController.php(147): CListView->init()
+#2 C:\WebServers\home\yii\www\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 Z:\home\yii\www\protected\views\page\index.php(24): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 C:\WebServers\home\yii\www\framework\web\CBaseController.php(126): require('Z:\home\yii\www...')
+#5 C:\WebServers\home\yii\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yii\www...', Array, true)
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yii\www...', Array, true)
+#7 C:\WebServers\home\yii\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 Z:\home\yii\www\protected\controllers\PageController.php(79): CController->render('index', Array)
+#9 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionCreate()
+#10 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\WebServers\home\yii\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\WebServers\home\yii\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\WebServers\home\yii\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\WebServers\home\yii\www\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page/create')
+#20 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 Z:\home\yii\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php/page/create
+HTTP_REFERER=http://yii/index.php/page
+---
+2015/08/29 14:54:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "пгуые".' in C:\WebServers\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('??????????')
+#1 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/%D0%BF%D0%B3%D1%83%D1%8B%D0%B5
+---
+2015/08/29 14:55:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/guest
+---
+2015/08/29 14:55:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/guest
+---
+2015/08/29 14:55:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "book".' in C:\WebServers\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book')
+#1 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/book
+---
+2015/08/29 14:56:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/guest
+---
+2015/08/29 14:57:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "creatae".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('creatae')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('creatae')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest/creatae')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/guest/creatae
+---
+2015/08/29 14:57:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('create')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('create')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest/create')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/guest/create
+---
+2015/08/29 14:57:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('view')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('view')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest/view')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/guest/view
+---
+2015/08/29 14:57:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('test')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('test')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page/test')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/page/test
+---
+2015/08/29 14:57:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('test')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('test')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page/test')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/page/test
+---
+2015/08/29 14:58:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/guest
+---
+2015/08/29 14:58:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/guest
+---
+2015/08/29 14:58:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/guest
+---
+2015/08/29 14:58:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/guest
+---
+2015/08/29 14:58:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/guest
+---
+2015/08/29 14:58:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/guest
+---
+2015/08/29 14:59:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/guest
+---
+2015/08/29 14:59:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('guest')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/guest
+---
+2015/08/29 15:00:48 [error] [php] mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (42000/1049): Unknown database 'guestbook' (Z:\home\yii\www\protected\views\page\index.php:41)
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CBaseController.php(95): PageController->renderInternal()
+#1 C:\WebServers\home\yii\www\framework\web\CController.php(869): PageController->renderFile()
+#2 C:\WebServers\home\yii\www\framework\web\CController.php(782): PageController->renderPartial()
+#3 Z:\home\yii\www\protected\controllers\PageController.php(128): PageController->render()
+#4 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(133): PageController->runAction()
+#7 C:\WebServers\home\yii\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\WebServers\home\yii\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\WebServers\home\yii\www\framework\web\filters\CInlineFilter.php(58): PageController->filterAccessControl()
+#10 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\WebServers\home\yii\www\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\WebServers\home\yii\www\framework\web\CController.php(265): PageController->runActionWithFilters()
+#13 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): PageController->run()
+#14 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 Z:\home\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/page
+in Z:\home\yii\www\protected\views\page\index.php (41)
+in Z:\home\yii\www\protected\controllers\PageController.php (128)
+in Z:\home\yii\www\index.php (13)
+2015/08/29 15:01:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addMessage.php".' in C:\WebServers\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('addMessage.php')
+#1 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/addMessage.php
+HTTP_REFERER=http://yii/index.php/page
+---
+2015/08/29 15:14:52 [error] [php] include(Users.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\WebServers\home\yii\www\framework\YiiBase.php:432)
+Stack trace:
+#0 Z:\home\yii\www\protected\views\page\index.php(44): spl_autoload_call()
+#1 C:\WebServers\home\yii\www\framework\web\CBaseController.php(126): require()
+#2 C:\WebServers\home\yii\www\framework\web\CBaseController.php(95): PageController->renderInternal()
+#3 C:\WebServers\home\yii\www\framework\web\CController.php(869): PageController->renderFile()
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(782): PageController->renderPartial()
+#5 Z:\home\yii\www\protected\controllers\PageController.php(128): PageController->render()
+#6 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#7 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(133): PageController->runAction()
+#9 C:\WebServers\home\yii\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\WebServers\home\yii\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#11 C:\WebServers\home\yii\www\framework\web\filters\CInlineFilter.php(58): PageController->filterAccessControl()
+#12 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#13 C:\WebServers\home\yii\www\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\WebServers\home\yii\www\framework\web\CController.php(265): PageController->runActionWithFilters()
+#15 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): PageController->run()
+#16 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#18 Z:\home\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/page
+in Z:\home\yii\www\protected\views\page\index.php (44)
+in Z:\home\yii\www\protected\controllers\PageController.php (128)
+in Z:\home\yii\www\index.php (13)
+2015/08/29 15:15:44 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `page` `t` WHERE user_id > :myParams.
+in Z:\home\yii\www\protected\views\page\index.php (44)
+in Z:\home\yii\www\protected\controllers\PageController.php (128)
+in Z:\home\yii\www\index.php (13)
+2015/08/29 15:15:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `page` `t` WHERE user_id > :myParams' in C:\WebServers\home\yii\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\WebServers\home\yii\www\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\WebServers\home\yii\www\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 Z:\home\yii\www\protected\views\page\index.php(44): CActiveRecord->findAll('user_id > :myPa...', Array)
+#4 C:\WebServers\home\yii\www\framework\web\CBaseController.php(126): require('Z:\home\yii\www...')
+#5 C:\WebServers\home\yii\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yii\www...', Array, true)
+#6 C:\WebServers\home\yii\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yii\www...', Array, true)
+#7 C:\WebServers\home\yii\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 Z:\home\yii\www\protected\controllers\PageController.php(128): CController->render('index', Array)
+#9 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#10 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\WebServers\home\yii\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\WebServers\home\yii\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\WebServers\home\yii\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\WebServers\home\yii\www\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page')
+#20 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 Z:\home\yii\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php/page
+---
+2015/08/29 15:16:21 [error] [exception.CException] exception 'CException' with message 'Property "Page.user_login" is not defined.' in C:\WebServers\home\yii\www\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('user_login')
+#1 Z:\home\yii\www\protected\views\page\index.php(47): CActiveRecord->__get('user_login')
+#2 C:\WebServers\home\yii\www\framework\web\CBaseController.php(126): require('Z:\home\yii\www...')
+#3 C:\WebServers\home\yii\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yii\www...', Array, true)
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yii\www...', Array, true)
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 Z:\home\yii\www\protected\controllers\PageController.php(128): CController->render('index', Array)
+#7 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#8 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\WebServers\home\yii\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\WebServers\home\yii\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\WebServers\home\yii\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\WebServers\home\yii\www\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#17 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page')
+#18 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#19 Z:\home\yii\www\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/index.php/page
+---
+2015/08/29 15:16:27 [error] [exception.CException] exception 'CException' with message 'Property "Page.user_skype" is not defined.' in C:\WebServers\home\yii\www\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('user_skype')
+#1 Z:\home\yii\www\protected\views\page\index.php(47): CActiveRecord->__get('user_skype')
+#2 C:\WebServers\home\yii\www\framework\web\CBaseController.php(126): require('Z:\home\yii\www...')
+#3 C:\WebServers\home\yii\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\yii\www...', Array, true)
+#4 C:\WebServers\home\yii\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\yii\www...', Array, true)
+#5 C:\WebServers\home\yii\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 Z:\home\yii\www\protected\controllers\PageController.php(128): CController->render('index', Array)
+#7 C:\WebServers\home\yii\www\framework\web\actions\CInlineAction.php(49): PageController->actionIndex()
+#8 C:\WebServers\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\WebServers\home\yii\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\WebServers\home\yii\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\WebServers\home\yii\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\WebServers\home\yii\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\WebServers\home\yii\www\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\WebServers\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#17 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page')
+#18 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#19 Z:\home\yii\www\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/index.php/page
+---
+2015/08/29 15:31:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "update_info.php".' in C:\WebServers\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('update_info.php')
+#1 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/update_info.php
+HTTP_REFERER=http://yii/index.php/page
+---
+2015/08/29 15:42:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "joja".' in C:\WebServers\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('joja')
+#1 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/joja
+HTTP_REFERER=http://yii/index.php/page
+---
+2015/08/29 15:42:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "create.php".' in C:\WebServers\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('create.php')
+#1 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/create.php
+HTTP_REFERER=http://yii/index.php/page
+---
+2015/08/29 15:42:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "create.php".' in C:\WebServers\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('create.php')
+#1 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/create.php
+HTTP_REFERER=http://yii/index.php/page
+---
+2015/08/29 15:42:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "create".' in C:\WebServers\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('create')
+#1 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/create
+HTTP_REFERER=http://yii/index.php/page
+---
+2015/08/29 15:43:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('page')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('page')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page/page/index')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/page/page/index
+HTTP_REFERER=http://yii/index.php/page/index
+---
+2015/08/29 15:43:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page".' in C:\WebServers\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\WebServers\home\yii\www\framework\web\CController.php(270): CController->missingAction('page')
+#1 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(282): CController->run('page')
+#2 C:\WebServers\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('page/page/index')
+#3 C:\WebServers\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/page/page/index
+HTTP_REFERER=http://yii/index.php/page/index
+---
